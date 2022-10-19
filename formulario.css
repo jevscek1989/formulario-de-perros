@@ -1,0 +1,181 @@
+body {
+    background-color:rgb(132, 220, 198,1);
+}
+#titulo{
+    width: 400px;
+    margin: 40px 450px 40px 450px;
+}
+.nombre {
+    font-family: inherit;
+    font-size: 16px;
+    font-weight: 900;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: center;    
+    margin: 15px 60px 15px 15px ;
+}
+.edad{
+    font-family: inherit;
+    font-size: 16px;
+    font-weight: 900;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: center;
+    margin: 15px 60px 15px 60px;
+}
+.animal{
+    font-family: inherit;
+    font-size: 16px;
+    font-weight: 900;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: center;
+    margin: 15px 20px 15px 20px;
+}
+
+div .por{
+    font-family: inherit;
+    font-size: 16px;
+    font-weight: 900;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: center;
+    margin: 15px 20px 15px 20px;
+}
+div .domicilio {
+    font-family: inherit;
+    font-size: 16px;
+    font-weight: 900;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: center;
+    margin: 15px 20px 15px 20px;
+}
+div .tipo{
+    font-family: inherit;
+    font-size: 16px;
+    font-weight: 900;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: center;
+    margin: 15px 20px 15px 20px;
+}
+div .casa{
+    font-family: inherit;
+    font-size: 16px;
+    font-weight: 900;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: left;
+    margin: 15px 60px 15px 20px;
+}
+div .depto{
+    font-family: inherit;
+    font-size: 16px;
+    font-weight: 900;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: left;
+    margin: 15px 60px 15px 20px;
+
+}
+div .alca{
+    font-family: inherit;
+    font-size: 16px;
+    font-weight: 900;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: left;
+    margin: 15px 60px 15px 20px;
+
+}
+div .alde{
+    font-family: inherit;
+    font-size: 16px;
+    font-weight: 900;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: left;
+    margin: 15px 60px 15px 20px;
+}
+div .estan{
+    font-family: inherit;
+    font-size: 16px;
+    font-weight: 900;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: left;
+    margin: 15px 60px 15px 20px;
+}
+div .si{
+    font-family: inherit;
+    font-size: 16px;
+    font-weight: 900;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: left;
+    margin: 15px 60px 15px 20px;
+
+}
+div .no{
+    font-family: inherit;
+    font-size: 16px;
+    font-weight: 900;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: left;
+    margin: 15px 60px 15px 20px;
+}
+div .hay{
+    font-family: inherit;
+    font-size: 16px;
+    font-weight: 900;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: left;
+    margin: 15px 60px 15px 20px;
+}
+div .sy{
+    font-family: inherit;
+    font-size: 16px;
+    font-weight: 900;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: left;
+    margin: 15px 60px 15px 20px;
+}
+div .ne{
+    font-family: inherit;
+    font-size: 16px;
+    font-weight: 900;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: left;
+    margin: 15px 60px 15px 20px;
+}
+div .ingrese{
+    font-family: inherit;
+    font-size: 16px;
+    font-weight: 900;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: left;
+    margin: 15px 60px 15px 20px;
+}
+div .patio{
+    font-family: inherit;
+    font-size: 16px;
+    font-weight: 900;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: left;
+    margin: 15px 60px 15px 20px;
+}
+.perroFormulario img{ 
+    display: flex;
+    position:absolute;
+    z-index: -999;
+    width: 17rem;
+    margin-left: 200px;
+}
+

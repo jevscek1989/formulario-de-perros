@@ -2,65 +2,108 @@
 <html>
 <head>
    
-    <title>Formulario de Adopcion</title>
+    <title>Formulario de Adopcíon</title>
+    <link rel="stylesheet" href="formulario.css"/>
 </head>
 <body>
-    <h1>Formulario de Adopcion</h1>
+    <h1 id="titulo">Formulario de Adopcíon</h1>
     <form>
-        <label for="Nombre y Apellido">Nombre y Apellido</label>
-        <input type="text" id="Nombre y Apellido" name="Nombre y Apellido"> </input>
+        <div>
+        <label class="nombre" for="Nombre y Apellido">Nombre y Apellido</label>
+        <input class="cuadro1" type="text" id="Nombre y Apellido" name="Nombre y Apellido"> </input>
+        </div>
         <br>
-        <label for="Edad">Edad</label>
-        <input type="text" id="Edad" name="Edad"></input>
+        <div>
+        <label class="edad" for="Edad">Edad</label>
+        <input class="cuadro2" type="text" id="Edad" name="Edad"></input>
+        </div>    
         <br>
-        <label for="Nombre del animal interesado">Nombre del animal interesado</label>
-        <input type="text" id="Nombre del animal interesado" name="Nombre del animal interesado"></input>
+        <div>
+            <label class="animal" for="Nombre del animal interesado">Nombre del animal interesado</label>
+            <input class="cuadro3" type="text" id="Nombre del animal interesado" name="Nombre del animal interesado"></input>
+        </div>
         <br>
-        <label for="Contacto">Contacto</label>
-        <input type="text" id="Contacto" name="Contacto"> </input>
+        <div>
+            <label class="por" for="¿Por que queres adoptar?">¿Por que queres adoptar?</label>
+            <input class="cuadro4" type="text" id="¿Porque queres adoptar?" name="¿Porque queres adoptar?"></input>
+        </div>
         <br>
-        <label for="¿Por que queres adoptar?">¿Por que queres adoptar?</label>
-        <input type="text" id="¿Porque queres adoptar?" name="¿Porque queres adoptar?"></input>
+        <div>
+            <label class="domicilio" for="Domicilio">Domicilio</label>
+            <input class="cuadro5" type="text" id="Domicilio" name="Domicilio"></input>
+        </div>
         <br>
-        <label for="Domicilio">Domicilio</label>
-        <input type="text" id="Domicilio" name="Domicilio"></input>
+        <div>
+            <label class="tipo" for="Tipo de vivienda">Tipo de vivienda</label>
+        </div>
         <br>
-        <label for="Tipo de vivienda">Tipo de vivienda</label>
+        <div>
+            <input class="cuadro6" type="radio" id="Casa Propia" name="Casa Propia"> </input>
+            <label class="casa" for="Casa Propia">Casa Propia</label>
+        </div>
         <br>
-        <label for="Casa Propia">Casa Propia</label>
-        <input type="radio" id="Casa Propia" name="Casa Propia"> </input>
+        <div>
+            <input class="cuadro7" type="radio" id="Departamento" name="Departamento"> </input>
+            <label class="depto" for="Departamento">Departamento</label>
+        </div>
         <br>
-        <label for="Departamento">Departamento</label>
-        <input type="radio" id="Departamento" name="Departamento"> </input>
+        <div>
+            <input class="cuadro8" type="radio" id="Alquilo Casa" name="Casa Propia"> </input> 
+            <label class="alca" for="Alquilo Casa">Alquilo Casa</label>
+        </div>
         <br>
-        <label for="Alquilo Casa">Alquilo Casa</label>
-        <input type="radio" id="Alquilo Casa" name="Casa Propia"> </input>
+        <div>
+            <input class="cuadro9" type="radio" id="Alquilo Departamento" name="Alquilo Departamento"> </input>
+            <label class="alde" for="Alquilo Departamento">Alquilo Departamento</label>
+        </div>
         <br>
-        <label for="Alquilo Departamento">Alquilo Departamento</label>
-        <input type="radio" id="Alquilo Departamento" name="Alquilo Departamento"> </input>
+        <div>
+            <label class="estan" for="¿Estan todos de acuerdo con la adopcion del perro?">¿Estan todos de acuerdo con la adopcion del perro?</label>
+        </div>
         <br>
-        <label for="¿Estan todos de acuerdo con la adopcion del perro?">¿Estan todos de acuerdo con la adopcion del perro?</label>
+        <div>
+            <input class="cuadro10" type="checkbox" id="SI" name="SI"> </input>
+            <label class="si" for="SI">SI</label>
+        </div>
         <br>
-        <label for="SI">SI</label>
-        <input type="radio" id="SI" name="SI"> </input>
+        <div>
+            <input class="cuadro11" type="checkbox" id="NO" name="NO"> </input>
+            <label class="no" for="NO">NO</label>
+        </div>
         <br>
-        <label for="NO">NO</label>
-        <input type="radio" id="NO" name="NO"> </input>
+        <div>
+            <label class="hay" for="¿Hay menores de edad en el hogar?">¿Hay menores de edad en el hogar?</label>    
+        </div>
         <br>
-        <label for="¿Hay menores de edad en el hogar?">¿Hay menores de edad en el hogar?</label>
+        <div>
+            <input class="cuadro12" type="checkbox"  id="SI" name="SI" value="si"> </input>
+            <label class="sy" for="SI">SI</label>
+        
+        </div>
         <br>
-        <label for="SI">SI</label>
-        <input type="radio" id="SI" name="SI"> </input>
+        <div>
+            <input  class="cuadro13" type="checkbox" id="NO" name="NO"> </input>
+            <label  class="ne" for="NO">NO</label>
+            
+        </div>
         <br>
-        <label for="NO">NO</label>
-        <input type="radio" id="NO" name="NO"> </input>
+        <div>
+            <label class="ingrese" for="Ingrese el link de sus redes sociales">Ingrese el link de sus redes sociales></label>
+            <input class="cuadro14" type="text" id="Ingrese el link de sus redes sociales" name="Ingrese el link de sus redes sociales"></input>
+        </div>
         <br>
-        <label for="Ingrese el link de sus redes sociales">Ingrese el link de sus redes sociales></label>
-        <input type="text" id="Ingrese el link de sus redes sociales" name="Ingrese el link de sus redes sociales"></input>
+        <div class="perroFormulario">
+            <img  src="perrito.png"/>
+        </div>
+        <div>
+            <label class="patio" for="¿su patio y/o rejas estan bien cerradas?">¿Su patio y/o rejas estan bien cerradas?</label>
+            <input class="cuadro15" type="text" id="¿Su patio y/o rejas estan bien cerradas?" name="¿Su patio y/o rejas estan bien cerradas?"></input>    
+        </div>
         <br>
-        <label for="¿su patio y/o rejas estan bien cerradas?">¿Su patio y/o rejas estan bien cerradas?</label>
-        <input type="text" id="¿Su patio y/o rejas estan bien cerradas?" name="¿Su patio y/o rejas estan bien cerradas?"></input>
-        <br>
+        
+        <a href="#titulo">Ir a comienzo</a>
+        
+    
 
         
 
