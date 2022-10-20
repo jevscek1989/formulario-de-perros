@@ -14,6 +14,16 @@ body {
     text-align: center;    
     margin: 15px 60px 15px 15px ;
 }
+.cuadro1{
+    position:absolute;
+    width: 500px;
+    height: 20px;
+    background-color: transparent;
+    opacity: 0.3;
+    border-radius: 30px;
+    border-color: rgb(15, 15, 15);
+    margin-left: 130px;
+}
 .edad{
     font-family: inherit;
     font-size: 16px;
@@ -22,6 +32,16 @@ body {
     letter-spacing: 0em;
     text-align: center;
     margin: 15px 60px 15px 60px;
+}
+.cuadro2{
+    position:absolute;
+    width: 500px;
+    height: 20px;
+    background-color: transparent;
+    opacity: 0.3;
+    border-radius: 30px;
+    border-color: rgb(15, 15, 15);
+    margin-left: 175px;
 }
 .animal{
     font-family: inherit;
@@ -32,6 +52,26 @@ body {
     text-align: center;
     margin: 15px 20px 15px 20px;
 }
+.cuadro3{
+    position:absolute;
+    width: 500px;
+    height: 20px;
+    background-color: transparent;
+    opacity: 0.3;
+    border-radius: 30px;
+    border-color: rgb(15, 15, 15);
+    margin-left: 88px;
+}
+.cuadro4{
+    position:absolute;
+    width: 500px;
+    height: 20px;
+    background-color: transparent;
+    opacity: 0.3;
+    border-radius: 30px;
+    border-color: rgb(15, 15, 15);
+    margin-left: 115px;
+}
 
 div .por{
     font-family: inherit;
@@ -41,6 +81,16 @@ div .por{
     letter-spacing: 0em;
     text-align: center;
     margin: 15px 20px 15px 20px;
+}
+.cuadro5{
+    position:absolute;
+    width: 500px;
+    height: 20px;
+    background-color: transparent;
+    opacity: 0.3;
+    border-radius: 30px;
+    border-color: rgb(15, 15, 15);
+    margin-left: 225px;
 }
 div .domicilio {
     font-family: inherit;
@@ -175,7 +225,34 @@ div .patio{
     display: flex;
     position:absolute;
     z-index: -999;
-    width: 17rem;
-    margin-left: 200px;
+    width: 839px;
+    height: 1024px;
+    margin-left: 600px;
+    background-position:right top;
+}
+.cuadro14{
+    position:absolute;
+    width: 500px;
+    height: 20px;
+    background-color: transparent;
+    opacity: 0.3;
+    border-radius: 30px;
+    border-color: rgb(15, 15, 15);
+    margin-left: 150px;
+}
+.cuadro15{
+    position:absolute;
+    width: 500px;
+    height: 20px;
+    background-color: transparent;
+    opacity: 0.3;
+    border-radius: 30px;
+    border-color: rgb(15, 15, 15);
+    margin-left: 130px;
+}
+.cuadro6{
+    position:relative;
+    margin-left: 300px;    
+    
 }
 
