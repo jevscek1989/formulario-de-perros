@@ -1,3 +1,8 @@
+*{
+margin: 0%;
+padding: 0%;
+box-sizing: border-box;
+}
 html{
     font-family:'Mukta', sans-serif; }
 body {
@@ -14,7 +19,7 @@ body {
     line-height: 24px;
     letter-spacing: 0em;
     text-align: center;    
-    margin: 15px 60px 15px 40px ;
+    margin: 15px 60px 15px 55px ;
 }
 .cuadro1{
     position:absolute;
@@ -33,7 +38,7 @@ body {
     line-height: 24px;
     letter-spacing: 0em;
     text-align: center;
-    margin: 15px 60px 15px 60px;
+    margin: 15px 60px 15px 100px;
 }
 .cuadro2{
     position:absolute;
@@ -52,7 +57,7 @@ body {
     line-height: 24px;
     letter-spacing: 0em;
     text-align: center;
-    margin: 15px 20px 15px 20px;
+    margin: 15px 20px 15px 35px;
 }
 .cuadro3{
     position:absolute;
@@ -83,7 +88,7 @@ div .por{
     line-height: 24px;
     letter-spacing: 0em;
     text-align: center;
-    margin: 15px 20px 15px 20px;
+    margin: 15px 20px 15px 35px;
     color: black;
 }
 .cuadro5{
@@ -103,7 +108,7 @@ div .domicilio {
     line-height: 24px;
     letter-spacing: 0em;
     text-align: center;
-    margin: 15px 20px 15px 20px;
+    margin: 15px 20px 15px 90px;
 }
 div .tipo{
     font-family: inherit;
@@ -112,7 +117,7 @@ div .tipo{
     line-height: 24px;
     letter-spacing: 0em;
     text-align: center;
-    margin: 15px 20px 15px 20px;
+    margin: 15px 20px 15px 65px;
 }
 div .casa{
     font-family: inherit;
@@ -159,7 +164,7 @@ div .estan{
     line-height: 24px;
     letter-spacing: 0em;
     text-align: left;
-    margin: 15px 60px 15px 20px;
+    margin: 15px 60px 15px 35px;
 }
 div .si{
     font-family: inherit;
@@ -187,7 +192,7 @@ div .hay{
     line-height: 24px;
     letter-spacing: 0em;
     text-align: left;
-    margin: 15px 60px 15px 20px;
+    margin: 15px 60px 15px 35px;
 }
 div .sy{
     font-family: inherit;
@@ -214,7 +219,7 @@ div .ingrese{
     line-height: 24px;
     letter-spacing: 0em;
     text-align: left;
-    margin: 15px 60px 15px 20px;
+    margin: 15px 60px 15px 35px;
 }
 div .patio{
     font-family: inherit;
@@ -223,7 +228,7 @@ div .patio{
     line-height: 24px;
     letter-spacing: 0em;
     text-align: left;
-    margin: 15px 60px 15px 20px;
+    margin: 15px 60px 15px 35px;
 }
 .perroFormulario img{ 
     display: flex;
@@ -297,7 +302,114 @@ div .patio{
     width: 20px;
     height: 20px;
     top: 115px;
-    
-    
-
+}
+.huella1 img{
+    position:absolute;
+    width: 20px;
+    height: 20px;
+    top: 160px;
+}
+.huella2 img{
+    position:absolute;
+    width: 20px;
+    height: 20px;
+    top: 200px;
+}
+.huella3 img{
+    position:absolute;
+    width: 20px;
+    height: 20px;
+    top: 242px;
+}
+.huella4 img{
+    position:absolute;
+    width: 20px;
+    height: 20px;
+    top: 285px;
+}
+.huella5 img{
+    position:absolute;
+    width: 20px;
+    height: 20px;
+    top: 325px;
+}
+.huella6 img{
+    position:absolute;
+    width: 20px;
+    height: 20px;
+    top: 538px;
+}
+.huella7 img{
+    position:absolute;
+    width: 20px;
+    height: 20px;
+    top: 662px;
+}
+.huella8 img{
+    position:absolute;
+    width: 20px;
+    height: 20px;
+    top: 788px;
+}
+.huella9 img{
+    position:absolute;
+    width: 20px;
+    height: 20px;
+    top: 832px;
+}
+.huella10 img{
+    position:absolute;
+    width: 20px;
+    height: 20px;
+    top: 115px;
+    right: 1000px;
+}
+.huella11 img{
+    position:absolute;
+    width: 20px;
+    height: 20px;
+    top: 165px;
+    right: 1000px;
+}
+.huella12 img{
+    position:absolute;
+    width: 20px;
+    height: 20px;
+    top: 200px;
+    right: 1000px;
+}
+.huella13 img{
+    position:absolute;
+    width: 20px;
+    height: 20px;
+    top: 242px;
+    right: 1000px;
+}
+.huella14 img{
+    position:absolute;
+    width: 20px;
+    height: 20px;
+    top: 285px;
+    right: 1000px;
+}
+.huella15 img{
+    position:absolute;
+    width: 20px;
+    height: 20px;
+    top: 325px;
+    right: 1000px;
+}
+.huella16 img{
+    position:absolute;
+    width: 20px;
+    height: 20px;
+    top: 538px;
+    right: 830px;
+}
+.huella17 img{
+    position:absolute;
+    width: 20px;
+    height: 20px;
+    top: 662px;
+    right: 900px;
 }
