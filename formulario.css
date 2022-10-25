@@ -1,3 +1,5 @@
+html{
+    font-family:'Mukta', sans-serif; }
 body {
     background-color:rgb(132, 220, 198,1);
 }
@@ -12,13 +14,13 @@ body {
     line-height: 24px;
     letter-spacing: 0em;
     text-align: center;    
-    margin: 15px 60px 15px 15px ;
+    margin: 15px 60px 15px 40px ;
 }
 .cuadro1{
     position:absolute;
     width: 500px;
     height: 20px;
-    background-color: transparent;
+    background-color: white;
     opacity: 0.3;
     border-radius: 30px;
     border-color: rgb(15, 15, 15);
@@ -37,7 +39,7 @@ body {
     position:absolute;
     width: 500px;
     height: 20px;
-    background-color: transparent;
+    background-color: white;
     opacity: 0.3;
     border-radius: 30px;
     border-color: rgb(15, 15, 15);
@@ -56,7 +58,7 @@ body {
     position:absolute;
     width: 500px;
     height: 20px;
-    background-color: transparent;
+    background-color: beige;
     opacity: 0.3;
     border-radius: 30px;
     border-color: rgb(15, 15, 15);
@@ -66,11 +68,12 @@ body {
     position:absolute;
     width: 500px;
     height: 20px;
-    background-color: transparent;
+    background-color: beige;
     opacity: 0.3;
     border-radius: 30px;
     border-color: rgb(15, 15, 15);
     margin-left: 115px;
+    box-sizing: content-box;
 }
 
 div .por{
@@ -81,12 +84,13 @@ div .por{
     letter-spacing: 0em;
     text-align: center;
     margin: 15px 20px 15px 20px;
+    color: black;
 }
 .cuadro5{
     position:absolute;
     width: 500px;
     height: 20px;
-    background-color: transparent;
+    background-color:white;
     opacity: 0.3;
     border-radius: 30px;
     border-color: rgb(15, 15, 15);
@@ -228,23 +232,24 @@ div .patio{
     width: 839px;
     height: 1024px;
     margin-left: 600px;
-    background-position:right top;
+
 }
 .cuadro14{
     position:absolute;
     width: 500px;
     height: 20px;
-    background-color: transparent;
+    background-color:beige;
     opacity: 0.3;
     border-radius: 30px;
     border-color: rgb(15, 15, 15);
     margin-left: 150px;
+    
 }
 .cuadro15{
     position:absolute;
     width: 500px;
     height: 20px;
-    background-color: transparent;
+    background-color:beige;
     opacity: 0.3;
     border-radius: 30px;
     border-color: rgb(15, 15, 15);
@@ -255,4 +260,44 @@ div .patio{
     margin-left: 300px;    
     
 }
+.cuadro7{
+    position:relative;
+    margin-left: 300px;  
+}
+.cuadro7{
+    position:relative;
+    margin-left: 300px;  
+}
+.cuadro8{
+    position:relative;
+    margin-left: 300px;  
+}
+.cuadro9{
+    position:relative;
+    margin-left: 300px;  
+}
+.cuadro10{
+    position:relative;
+    margin-left: 300px;  
+}
+.cuadro11{
+    position:relative;
+    margin-left: 300px;  
+}
+.cuadro12{
+    position:relative;
+    margin-left: 300px;  
+}
+.cuadro13{
+    position:relative;
+    margin-left: 300px;  
+}
+.huella img{
+    position:absolute;
+    width: 20px;
+    height: 20px;
+    top: 115px;
+    
+    
 
+}
