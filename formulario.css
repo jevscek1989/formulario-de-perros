@@ -19,17 +19,16 @@ body {
     line-height: 24px;
     letter-spacing: 0em;
     text-align: center;    
-    margin: 15px 60px 15px 55px ;
+    margin: 15px 60px 15px 85px ;
 }
 .cuadro1{
     position:absolute;
     width: 500px;
-    height: 20px;
-    background-color: white;
-    opacity: 0.3;
+    height: 25px;
+    background-color:floralwhite;
     border-radius: 30px;
-    border-color: rgb(15, 15, 15);
-    margin-left: 130px;
+    border-color:transparent;
+    margin-left: 170px;
 }
 .edad{
     font-family: inherit;
@@ -38,17 +37,16 @@ body {
     line-height: 24px;
     letter-spacing: 0em;
     text-align: center;
-    margin: 15px 60px 15px 100px;
+    margin: 15px 60px 15px 140px;
 }
 .cuadro2{
     position:absolute;
     width: 500px;
-    height: 20px;
-    background-color: white;
-    opacity: 0.3;
+    height: 25px;
+    background-color: floralwhite;
     border-radius: 30px;
-    border-color: rgb(15, 15, 15);
-    margin-left: 175px;
+    border-color: transparent;
+    margin-left: 230px;
 }
 .animal{
     font-family: inherit;
@@ -57,28 +55,29 @@ body {
     line-height: 24px;
     letter-spacing: 0em;
     text-align: center;
-    margin: 15px 20px 15px 35px;
+    margin: 15px 20px 15px 45px;
 }
 .cuadro3{
     position:absolute;
     width: 500px;
-    height: 20px;
-    background-color: beige;
-    opacity: 0.3;
+    height: 25px;
+    background-color:floralwhite;
+    border: 0px;
+    padding-left: 12px;
     border-radius: 30px;
-    border-color: rgb(15, 15, 15);
-    margin-left: 88px;
+    border-color:transparent;
+    margin-left: 145px;
+  
 }
 .cuadro4{
     position:absolute;
     width: 500px;
-    height: 20px;
-    background-color: beige;
-    opacity: 0.3;
+    height: 25px;
+    background-color: floralwhite;
     border-radius: 30px;
-    border-color: rgb(15, 15, 15);
-    margin-left: 115px;
-    box-sizing: content-box;
+    border-color: transparent;
+    margin-left: 165px;
+    
 }
 
 div .por{
@@ -88,18 +87,18 @@ div .por{
     line-height: 24px;
     letter-spacing: 0em;
     text-align: center;
-    margin: 15px 20px 15px 35px;
+    margin: 15px 20px 15px 65px;
     color: black;
 }
 .cuadro5{
     position:absolute;
     width: 500px;
-    height: 20px;
-    background-color:white;
-    opacity: 0.3;
+    height: 25px;
+    background-color:floralwhite;
     border-radius: 30px;
-    border-color: rgb(15, 15, 15);
-    margin-left: 225px;
+    border-color: transparent;
+    margin-left: 240px;
+ 
 }
 div .domicilio {
     font-family: inherit;
@@ -108,7 +107,7 @@ div .domicilio {
     line-height: 24px;
     letter-spacing: 0em;
     text-align: center;
-    margin: 15px 20px 15px 90px;
+    margin: 15px 20px 15px 130px;
 }
 div .tipo{
     font-family: inherit;
@@ -117,7 +116,7 @@ div .tipo{
     line-height: 24px;
     letter-spacing: 0em;
     text-align: center;
-    margin: 15px 20px 15px 65px;
+    margin: 15px 20px 15px 100px;
 }
 div .casa{
     font-family: inherit;
@@ -237,65 +236,64 @@ div .patio{
     width: 839px;
     height: 1024px;
     margin-left: 600px;
+    top: 300px;
 
 }
 .cuadro14{
     position:absolute;
     width: 500px;
-    height: 20px;
-    background-color:beige;
-    opacity: 0.3;
+    height: 25px;
+    background-color:floralwhite;
     border-radius: 30px;
-    border-color: rgb(15, 15, 15);
-    margin-left: 150px;
+    border-color: transparent;
+    margin-left: 45px;
     
 }
 .cuadro15{
     position:absolute;
     width: 500px;
-    height: 20px;
-    background-color:beige;
-    opacity: 0.3;
+    height: 25px;
+    background-color:floralwhite;
     border-radius: 30px;
-    border-color: rgb(15, 15, 15);
-    margin-left: 130px;
+    border-color: transparent;
+    margin-left: 25px;
 }
 .cuadro6{
     position:relative;
-    margin-left: 300px;    
+    margin-left: 335px;    
     
 }
 .cuadro7{
     position:relative;
-    margin-left: 300px;  
+    margin-left: 335px;  
 }
 .cuadro7{
     position:relative;
-    margin-left: 300px;  
+    margin-left: 335px;  
 }
 .cuadro8{
     position:relative;
-    margin-left: 300px;  
+    margin-left: 335px;  
 }
 .cuadro9{
     position:relative;
-    margin-left: 300px;  
+    margin-left: 335px;  
 }
 .cuadro10{
     position:relative;
-    margin-left: 300px;  
+    margin-left: 335px;  
 }
 .cuadro11{
     position:relative;
-    margin-left: 300px;  
+    margin-left: 335px;  
 }
 .cuadro12{
     position:relative;
-    margin-left: 300px;  
+    margin-left: 335px;  
 }
 .cuadro13{
     position:relative;
-    margin-left: 300px;  
+    margin-left: 335px;  
 }
 .huella img{
     position:absolute;
@@ -411,5 +409,20 @@ div .patio{
     width: 20px;
     height: 20px;
     top: 662px;
-    right: 900px;
+    right: 950px;
+}
+.huella18 img{
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    right: 930px;
+    top: 832px;
+    
+}
+.huella19 img{
+    position:absolute;
+    width: 20px;
+    height: 20px;
+    top: 792px;
+    right: 950px;
 }
