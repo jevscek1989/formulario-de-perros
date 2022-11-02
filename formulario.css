@@ -4,52 +4,38 @@ padding: 0%;
 box-sizing: border-box;
 }
 html{
-    font-family:'Mukta', sans-serif; }
-body {
+    font-family: 'Roboto', sans-serif;
+}
+body{
     background-color:rgb(132, 220, 198,1);
 }
 #titulo{
     width: 400px;
-    margin: 40px 450px 40px 450px;
+    margin: 40px 450px 40px 500px;
+    font-size: 28px;
 }
-.nombre {
-    font-family: inherit;
+.preguntas{
+    display: flex;
+    flex-direction: column;
     font-size: 16px;
     font-weight: 900;
     line-height: 24px;
     letter-spacing: 0em;
     text-align: center;    
-    margin: 15px 60px 15px 85px ;
+    margin: 15px 60px 15px 45px ;
 }
-.cuadro1{
-    position:absolute;
-    width: 500px;
-    height: 25px;
-    background-color:floralwhite;
-    border-radius: 30px;
-    border-color:transparent;
-    margin-left: 170px;
-}
+
 .edad{
-    font-family: inherit;
     font-size: 16px;
-    font-weight: 900;
+    font-weight: 300;
     line-height: 24px;
     letter-spacing: 0em;
     text-align: center;
-    margin: 15px 60px 15px 140px;
+    margin: 15px 60px 15px 40px;
 }
-.cuadro2{
-    position:absolute;
-    width: 500px;
-    height: 25px;
-    background-color: floralwhite;
-    border-radius: 30px;
-    border-color: transparent;
-    margin-left: 230px;
-}
+
 .animal{
-    font-family: inherit;
+    
     font-size: 16px;
     font-weight: 900;
     line-height: 24px;
@@ -57,51 +43,35 @@ body {
     text-align: center;
     margin: 15px 20px 15px 45px;
 }
-.cuadro3{
-    position:absolute;
-    width: 500px;
-    height: 25px;
-    background-color:floralwhite;
-    border: 0px;
-    padding-left: 12px;
-    border-radius: 30px;
-    border-color:transparent;
-    margin-left: 145px;
-  
-}
-.cuadro4{
-    position:absolute;
-    width: 500px;
-    height: 25px;
-    background-color: floralwhite;
-    border-radius: 30px;
-    border-color: transparent;
-    margin-left: 165px;
-    
-}
 
 div .por{
-    font-family: inherit;
+    
     font-size: 16px;
-    font-weight: 900;
+    font-weight: 300;
     line-height: 24px;
     letter-spacing: 0em;
     text-align: center;
     margin: 15px 20px 15px 65px;
     color: black;
 }
-.cuadro5{
-    position:absolute;
+.cuadros{
+    display: flex;
+    flex-direction: column;
+    border-color: transparent;
+    margin-left: 440px;
+    top: 30px;
+
+}
+.cuadros input{
+    border-radius: 35px;
+    margin-bottom: 24px;
     width: 500px;
     height: 25px;
     background-color:floralwhite;
-    border-radius: 30px;
-    border-color: transparent;
-    margin-left: 240px;
- 
+    top: 900px;
 }
 div .domicilio {
-    font-family: inherit;
+    
     font-size: 16px;
     font-weight: 900;
     line-height: 24px;

@@ -4,62 +4,40 @@
    
     <title>Formulario de Adopcíon</title>
     <link rel="stylesheet" href="formulario.css"/>
-    <link rel="preconectar" href="https://fonts.googleapis.com">
-    <link rel="preconectar" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https: //fonts.googleapis.com/css2? family= Mukta:wght@300 & display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
 </head>
 <body>
-    <h1 id="titulo">Formulario de Adopcíon</h1>
+    <h1 id="titulo">FORMULARIO DE ADOPCION</h1>
     <form >
-        <div>
-        <label class="nombre" for="Nombre y Apellido">Nombre y Apellido</label>
-        <input class="cuadro1" type="text" id="Nombre y Apellido" name="Nombre y Apellido"> </input>
+        <div class="preguntas">
+        <label for="Nombre y Apellido">Nombre y Apellido</label>
+        <label for="Edad">Edad</label>
+        <label for="Nombre del animal interesado">Nombre del animal interesado</label>
+        <label for="¿Por que queres adoptar?">¿Por que queres adoptar?</label>
+        <label for="Domicilio">Domicilio</label>
+        <label for="Tipo de vivienda">Tipo de vivienda</label>
+    </div>
+        <div class="cuadros">
+            <input type="text" id="Nombre y Apellido" name="Nombre y Apellido"> </input>
+            <input type="text" id="Edad" name="Edad"></input>
+            <input type="text" id="Nombre del animal interesado" name="Nombre del animal interesado"></input>
+            <input type="text" id="¿Porque queres adoptar?" name="¿Porque queres adoptar?"></input>
+            <input type="text" id="Domicilio" name="Domicilio"></input>
+
         </div>
-        <br>
-        <div>
-        <label class="edad" for="Edad">Edad</label>
-        <input class="cuadro2" type="text" id="Edad" name="Edad"></input>
-        </div>    
-        <br>
-        <div>
-            <label class="animal" for="Nombre del animal interesado">Nombre del animal interesado</label>
-            <input class="cuadro3" type="text" id="Nombre del animal interesado" name="Nombre del animal interesado"></input>
+        <div  class="cuadritos">
+            <input  type="radio" id="Casa Propia" name="Casa Propia"> </input>
+            <input  type="radio" id="Departamento" name="Departamento"> </input>
+            <input  type="radio" id="Alquilo Casa" name="Casa Propia"> </input>
+            <input  type="radio" id="Alquilo Departamento" name="Alquilo Departamento"> </input>
         </div>
-        <br>
-        <div>
-            <label class="por" for="¿Por que queres adoptar?">¿Por que queres adoptar?</label>
-            <input class="cuadro4" type="text" id="¿Porque queres adoptar?" name="¿Porque queres adoptar?"></input>
-        </div>
-        <br>
-        <div>
-            <label class="domicilio" for="Domicilio">Domicilio</label>
-            <input class="cuadro5" type="text" id="Domicilio" name="Domicilio"></input>
-        </div>
-        <br>
-        <div>
-            <label class="tipo" for="Tipo de vivienda">Tipo de vivienda</label>
-        </div>
-        <br>
-        <div>
-            <input class="cuadro6" type="radio" id="Casa Propia" name="Casa Propia"> </input>
-            <label class="casa" for="Casa Propia">Casa Propia</label>
-        </div>
-        <br>
-        <div>
-            <input class="cuadro7" type="radio" id="Departamento" name="Departamento"> </input>
             <label class="depto" for="Departamento">Departamento</label>
-        </div>
-        <br>
-        <div>
-            <input class="cuadro8" type="radio" id="Alquilo Casa" name="Casa Propia"> </input> 
+            <label class="casa" for="Casa Propia">Casa Propia</label>
             <label class="alca" for="Alquilo Casa">Alquilo Casa</label>
-        </div>
-        <br>
-        <div>
-            <input class="cuadro9" type="radio" id="Alquilo Departamento" name="Alquilo Departamento"> </input>
             <label class="alde" for="Alquilo Departamento">Alquilo Departamento</label>
         </div>
-        <br>
         <div>
             <label class="estan" for="¿Estan todos de acuerdo con la adopcion del perro?">¿Estan todos de acuerdo con la adopcion del perro?</label>
         </div>
