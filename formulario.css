@@ -17,35 +17,19 @@ body{
 .preguntas{
     display: flex;
     flex-direction: column;
-    font-size: 16px;
-    font-weight: 900;
-    line-height: 24px;
-    letter-spacing: 0em;
     text-align: center;    
-    margin: 15px 60px 15px 45px ;
+    left: 35px;
 }
-
-.edad{
-    font-size: 16px;
-    font-weight: 300;
-    line-height: 24px;
-    letter-spacing: 0em;
-    text-align: center;
-    margin: 15px 60px 15px 40px;
-}
-
-.animal{
-    
+.preguntas label{
     font-size: 16px;
     font-weight: 900;
     line-height: 24px;
     letter-spacing: 0em;
-    text-align: center;
-    margin: 15px 20px 15px 45px;
+    margin-bottom: 20px;
 }
+
 
 div .por{
-    
     font-size: 16px;
     font-weight: 300;
     line-height: 24px;
