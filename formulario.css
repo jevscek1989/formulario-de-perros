@@ -1,7 +1,7 @@
 *{
 margin: 0%;
 padding: 0%;
-box-sizing: border-box;
+
 }
 html{
     font-family: 'Roboto', sans-serif;
@@ -16,53 +16,66 @@ body{
 }
 .preguntas{
     display: flex;
-    flex-direction: column;
-    text-align: center;    
-    left: 35px;
+    flex-direction: column;   
+    margin-left: 45px;
+    max-width: 300px;
+    top: 60px;
 }
 .preguntas label{
-    font-size: 16px;
+    font-size: 20px;
     font-weight: 900;
-    line-height: 24px;
-    letter-spacing: 0em;
-    margin-bottom: 20px;
-}
-
-
-div .por{
-    font-size: 16px;
-    font-weight: 300;
-    line-height: 24px;
     letter-spacing: 0em;
     text-align: center;
-    margin: 15px 20px 15px 65px;
-    color: black;
+    line-height: 60px;
+    
 }
 .cuadros{
     display: flex;
     flex-direction: column;
     border-color: transparent;
-    margin-left: 440px;
+    left: 350px;
     top: 30px;
+    max-width: 500px;
+    margin-left: 450px;
+    margin-top: -340px;
 
 }
 .cuadros input{
-    border-radius: 35px;
-    margin-bottom: 24px;
+
     width: 500px;
     height: 25px;
     background-color:floralwhite;
-    top: 900px;
+    border-radius: 30px;
+    border-color: transparent;
+    margin-bottom: 31px;
+
 }
-div .domicilio {
-    
-    font-size: 16px;
+.opciones{
+    display: flex;
+    flex-direction: column;
+    margin-left: 150px;
+    max-width: 350px;
+    margin-left: 350px;
+    margin-top: -215px;
+}
+.opciones label{
+    font-size: 20px;
     font-weight: 900;
-    line-height: 24px;
+    line-height: 50px;
     letter-spacing: 0em;
-    text-align: center;
-    margin: 15px 20px 15px 130px;
+    text-align: left;
+    
 }
+.cuadritos{
+    display: flex;
+    flex-direction: column;
+    left: 100px;
+    margin-top: 100px;
+}
+.cuadritos input{
+    margin-bottom: 35px;  
+}
+
 div .tipo{
     font-family: inherit;
     font-size: 16px;
@@ -249,134 +262,68 @@ div .patio{
     position:relative;
     margin-left: 335px;  
 }
-.huella img{
-    position:absolute;
+
+.fila-izq img{
+    position:relative;
     width: 20px;
     height: 20px;
-    top: 115px;
+    margin-bottom: 43px;
 }
-.huella1 img{
-    position:absolute;
-    width: 20px;
-    height: 20px;
-    top: 160px;
+.fila-izq{
+    display: flex;
+    flex-direction: column;
+    margin-top: -1075px;
+    margin-left: 35px;
 }
-.huella2 img{
-    position:absolute;
-    width: 20px;
-    height: 20px;
-    top: 200px;
+.fila-der{
+    display: flex;
+    flex-direction: column;
+    margin-top: -1075px;
+    left: 350px;
 }
-.huella3 img{
-    position:absolute;
+.fila-der img{
+    position: relative;
     width: 20px;
     height: 20px;
-    top: 242px;
+    margin-bottom: 43px;
 }
-.huella4 img{
-    position:absolute;
+.huella12{
+    position: relative;
     width: 20px;
     height: 20px;
-    top: 285px;
 }
-.huella5 img{
-    position:absolute;
+.huella13{
+    position:relative;
     width: 20px;
     height: 20px;
-    top: 325px;
 }
-.huella6 img{
-    position:absolute;
+.huella14{
+    position:relative;
     width: 20px;
     height: 20px;
-    top: 538px;
 }
-.huella7 img{
-    position:absolute;
+.huella15{
+    position:relative;
     width: 20px;
     height: 20px;
-    top: 662px;
 }
-.huella8 img{
-    position:absolute;
+.huella16{
+    position:relative;
     width: 20px;
     height: 20px;
-    top: 788px;
 }
-.huella9 img{
-    position:absolute;
+.huella17{
+    position:relative;
     width: 20px;
     height: 20px;
-    top: 832px;
 }
-.huella10 img{
-    position:absolute;
+.huella18{
+    position:relative;
     width: 20px;
     height: 20px;
-    top: 115px;
-    right: 1000px;
 }
-.huella11 img{
-    position:absolute;
+.huella19{
+    position:relative;
     width: 20px;
     height: 20px;
-    top: 165px;
-    right: 1000px;
-}
-.huella12 img{
-    position:absolute;
-    width: 20px;
-    height: 20px;
-    top: 200px;
-    right: 1000px;
-}
-.huella13 img{
-    position:absolute;
-    width: 20px;
-    height: 20px;
-    top: 242px;
-    right: 1000px;
-}
-.huella14 img{
-    position:absolute;
-    width: 20px;
-    height: 20px;
-    top: 285px;
-    right: 1000px;
-}
-.huella15 img{
-    position:absolute;
-    width: 20px;
-    height: 20px;
-    top: 325px;
-    right: 1000px;
-}
-.huella16 img{
-    position:absolute;
-    width: 20px;
-    height: 20px;
-    top: 538px;
-    right: 830px;
-}
-.huella17 img{
-    position:absolute;
-    width: 20px;
-    height: 20px;
-    top: 662px;
-    right: 950px;
-}
-.huella18 img{
-    position: absolute;
-    width: 20px;
-    height: 20px;
-    right: 930px;
-    top: 832px;
-    
-}
-.huella19 img{
-    position:absolute;
-    width: 20px;
-    height: 20px;
-    top: 792px;
-    right: 950px;
 }
