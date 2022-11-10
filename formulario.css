@@ -125,15 +125,23 @@ div .alde{
     text-align: left;
     margin: 15px 60px 15px 20px;
 }
-div .estan{
+label .est{
     font-family: inherit;
     font-size: 16px;
     font-weight: 900;
     line-height: 24px;
     letter-spacing: 0em;
-    text-align: left;
     margin-left: 35px;
-    left: 35px;
+    
+    
+}
+div .estan{
+    position: relative;
+    left: 150px;
+    margin-left: 100px;
+    bottom: 300px;
+    font-weight: 900;
+
 }
 
 div .si{
@@ -287,15 +295,15 @@ div.fila-der{
     position: relative;
     display: flex;
     flex-direction: column;
-    margin-top: -1825px;
-    left: 5px;
+    margin-top: -982px;
+    left: 15px;
     
 }
 .fila-der img{
     position: relative;
     width: 20px;
     height: 20px;
-    margin-bottom: 43px;
+    margin-bottom: 40px;
     max-width: 30px;
 }
 .huella12 img{
@@ -338,3 +346,12 @@ div.fila-der{
     width: 20px;
     height: 20px;
 }
+.pie{
+    position: relative;
+    margin-top: 750px;
+    color: black;
+    margin-left: 25px;
+    font-size: 20;
+    font-weight: 900;
+}
+
