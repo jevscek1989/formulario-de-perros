@@ -125,23 +125,16 @@ div .alde{
     text-align: left;
     margin: 15px 60px 15px 20px;
 }
-label .est{
+
+.acuerdo{
+    position: relative;
+    left: 30px;
+    top: 10px;
     font-family: inherit;
     font-size: 16px;
     font-weight: 900;
     line-height: 24px;
     letter-spacing: 0em;
-    margin-left: 35px;
-    
-    
-}
-div .estan{
-    position: relative;
-    left: 150px;
-    margin-left: 100px;
-    bottom: 300px;
-    font-weight: 900;
-
 }
 
 div .si{
@@ -197,7 +190,8 @@ div .ingrese{
     line-height: 24px;
     letter-spacing: 0em;
     text-align: left;
-    margin: 15px 60px 15px 35px;
+    margin: 15px 60px 35px 35px;
+    
 }
 div .patio{
     font-family: inherit;
@@ -206,7 +200,7 @@ div .patio{
     line-height: 24px;
     letter-spacing: 0em;
     text-align: left;
-    margin: 15px 60px 15px 35px;
+    margin: 15px 60px 15px 25px;
 }
 .perroFormulario img{ 
     display: flex;
@@ -235,7 +229,7 @@ div .patio{
     background-color:floralwhite;
     border-radius: 30px;
     border-color: transparent;
-    margin-left: 25px;
+    margin-left: 45px;
 }
 .cuadro6{
     position:relative;
@@ -276,82 +270,97 @@ div .patio{
 }
 
 .fila-izq img{
-    position:relative;
+    display: flex;
+    flex-direction: column;
     width: 20px;
     height: 20px;
     margin-bottom: 43px;
     left: 35px;
-    margin-left: -350px;
-    top: -1450px;
 }
-div .fila-izq{
-    position: relative;
-    display: flex;
-    flex-direction: column;
-    margin-top: 375px;
-    max-width: 30px;
+.fila-izq{
+    margin-top: 750px;
+    width: 50px;
+    margin-left: 350px; 
 }
 div.fila-der{
     position: relative;
     display: flex;
     flex-direction: column;
-    margin-top: -982px;
-    left: 15px;
-    
+    margin-top: -2075px;
+    margin-left: 15px;
+    max-width: 35px;
 }
 .fila-der img{
     position: relative;
     width: 20px;
     height: 20px;
     margin-bottom: 40px;
-    max-width: 30px;
+    max-width: 35px;
+    
 }
 .huella12 img{
     position: relative;
     width: 20px;
     height: 20px;
+    top: 343px;
 }
 .huella13 img{
     position:relative;
     width: 20px;
     height: 20px;
+    top: 317px;
+    left: 310px;
 }
 .huella14 img{
     position:relative;
     width: 20px;
     height: 20px;
+    top: 424px;
 }
 .huella15 img{
     position:relative;
     width: 20px;
     height: 20px;
+    top: 400px;
+    left: 310px; 
 }
 .huella16 img{
     position:relative;
     width: 20px;
     height: 20px;
+    top: 420px;
 }
 .huella17 img{
     position:relative;
     width: 20px;
     height: 20px;
+    top: 395px;
+    left: 310px;
 }
 .huella18 img{
     position:relative;
     width: 20px;
     height: 20px;
+    top: 75px;
+
 }
 .huella19 img{
     position:relative;
     width: 20px;
     height: 20px;
+    top: 50px;
+    left: 400px;
 }
 .pie{
     position: relative;
-    margin-top: 750px;
+    top: 750px;
+}   
+a {
     color: black;
     margin-left: 25px;
     font-size: 20;
     font-weight: 900;
 }
+  
+
 
