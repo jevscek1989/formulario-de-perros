@@ -29,33 +29,35 @@ body{
     line-height: 60px;
     
 }
-.cuadros{
+.segundo-cuadro{
     display: flex;
     flex-direction: column;
+
+}
+.cuadros{
     border-color: transparent;
-    left: 350px;
-    top: 30px;
+    left: 450px;
+    top: 60px;
     max-width: 500px;
     margin-left: 450px;
-    margin-top: -340px;
+    margin-top: -390px;
 
 }
 .cuadros input{
-
     width: 500px;
     height: 25px;
     background-color:floralwhite;
     border-radius: 30px;
     border-color: transparent;
     margin-bottom: 31px;
+    margin-left: 100px;
 
 }
 .opciones{
     display: flex;
     flex-direction: column;
-    margin-left: 150px;
-    max-width: 350px;
-    margin-left: 350px;
+    margin-left: 450px;
+    max-width: 550px;
     margin-top: -215px;
 }
 .opciones label{
@@ -64,6 +66,7 @@ body{
     line-height: 50px;
     letter-spacing: 0em;
     text-align: left;
+    margin-left: 50px;
     
 }
 .cuadritos{
@@ -71,7 +74,7 @@ body{
     flex-direction: column;
     left: 60px;
     margin-top: 100px;
-    margin-left: 300px;
+    margin-left: 450px;
     max-width: 60px;
 }
 .cuadritos input{
@@ -268,35 +271,36 @@ div .patio{
     position:relative;
     margin-left: 335px;  
 }
+.primer-cuadro{
+     display: flex;
+     flex-direction: row;
+}
 
+img:nth-child(6){
+    margin-top: 95px;
+}
+label:nth-child(6){
+    margin-top: 50px;
+}
 .fila-izq img{
-    display: flex;
-    flex-direction: column;
+    position: relative;
     width: 20px;
     height: 20px;
-    margin-bottom: 43px;
-    left: 35px;
-}
-.fila-izq{
-    margin-top: 750px;
-    width: 50px;
-    margin-left: 350px; 
-}
-div.fila-der{
-    position: relative;
     display: flex;
     flex-direction: column;
-    margin-top: -2075px;
-    margin-left: 15px;
-    max-width: 35px;
+    margin-bottom: 40px;
+    top: 20px;
+    margin-left: 35px;
 }
 .fila-der img{
     position: relative;
     width: 20px;
     height: 20px;
+    display: flex;
+    flex-direction: column;
     margin-bottom: 40px;
-    max-width: 35px;
-    
+    margin-left: 50px;
+    top: 20px;
 }
 .huella12 img{
     position: relative;
