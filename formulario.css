@@ -58,7 +58,7 @@ body{
     flex-direction: column;
     margin-left: 450px;
     max-width: 550px;
-    margin-top: -215px;
+    margin-top: -500px;
 }
 .opciones label{
     font-size: 20px;
@@ -79,131 +79,6 @@ body{
 }
 .cuadritos input{
     margin-bottom: 35px;  
-}
-
-div .tipo{
-    font-family: inherit;
-    font-size: 16px;
-    font-weight: 900;
-    line-height: 24px;
-    letter-spacing: 0em;
-    text-align: center;
-    margin: 15px 20px 15px 100px;
-}
-div .casa{
-    font-family: inherit;
-    font-size: 16px;
-    font-weight: 900;
-    line-height: 24px;
-    letter-spacing: 0em;
-    text-align: left;
-    margin: 15px 60px 15px 20px;
-}
-div .depto{
-    font-family: inherit;
-    font-size: 16px;
-    font-weight: 900;
-    line-height: 24px;
-    letter-spacing: 0em;
-    text-align: left;
-    margin: 15px 60px 15px 20px;
-
-}
-div .alca{
-    font-family: inherit;
-    font-size: 16px;
-    font-weight: 900;
-    line-height: 24px;
-    letter-spacing: 0em;
-    text-align: left;
-    margin: 15px 60px 15px 20px;
-
-}
-div .alde{
-    font-family: inherit;
-    font-size: 16px;
-    font-weight: 900;
-    line-height: 24px;
-    letter-spacing: 0em;
-    text-align: left;
-    margin: 15px 60px 15px 20px;
-}
-
-.acuerdo{
-    position: relative;
-    left: 30px;
-    top: 10px;
-    font-family: inherit;
-    font-size: 16px;
-    font-weight: 900;
-    line-height: 24px;
-    letter-spacing: 0em;
-}
-
-div .si{
-    font-family: inherit;
-    font-size: 16px;
-    font-weight: 900;
-    line-height: 24px;
-    letter-spacing: 0em;
-    text-align: left;
-    margin: 15px 60px 15px 20px;
-
-}
-div .no{
-    font-family: inherit;
-    font-size: 16px;
-    font-weight: 900;
-    line-height: 24px;
-    letter-spacing: 0em;
-    text-align: left;
-    margin: 15px 60px 15px 20px;
-}
-div .hay{
-    font-family: inherit;
-    font-size: 16px;
-    font-weight: 900;
-    line-height: 24px;
-    letter-spacing: 0em;
-    text-align: left;
-    margin: 15px 60px 15px 35px;
-}
-div .sy{
-    font-family: inherit;
-    font-size: 16px;
-    font-weight: 900;
-    line-height: 24px;
-    letter-spacing: 0em;
-    text-align: left;
-    margin: 15px 60px 15px 20px;
-}
-div .ne{
-    font-family: inherit;
-    font-size: 16px;
-    font-weight: 900;
-    line-height: 24px;
-    letter-spacing: 0em;
-    text-align: left;
-    margin: 15px 60px 15px 20px;
-}
-div .ingrese{
-    font-family: inherit;
-    font-size: 16px;
-    font-weight: 900;
-    line-height: 24px;
-    letter-spacing: 0em;
-    text-align: left;
-    margin: 15px 60px 35px 35px;
-    
-}
-div .patio{
-    font-family: inherit;
-    font-size: 16px;
-    font-weight: 900;
-    line-height: 24px;
-    letter-spacing: 0em;
-    text-align: left;
-    margin: 15px 60px 15px 25px;
 }
 .perroFormulario img{ 
     display: flex;
@@ -302,62 +177,52 @@ label:nth-child(6){
     margin-left: 50px;
     top: 20px;
 }
-.huella12 img{
+.tercer-cuadro{
+    display: flex;
+     flex-direction: row;
+}
+.lado-izq img{
     position: relative;
     width: 20px;
     height: 20px;
-    top: 343px;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 125px;
+    top: -335px;
+ 
 }
-.huella13 img{
-    position:relative;
+.lado-izq{
+    margin-left: 15px;
+}
+.preguntas2{
+    display: flex;
+    flex-direction: column;
+    margin-left: 15px;
+    max-width: 550px;
+    margin-top: -350px;
+}
+.preguntas2 label{
+    font-size: 20px;
+    font-weight: 900;
+    line-height: 50px;
+    letter-spacing: 0em;
+    text-align: left;
+    margin-left: 15px;
+    margin-bottom: 95px;
+}
+.lado-der img{
+    position: relative;
     width: 20px;
     height: 20px;
-    top: 317px;
-    left: 310px;
-}
-.huella14 img{
-    position:relative;
-    width: 20px;
-    height: 20px;
-    top: 424px;
-}
-.huella15 img{
-    position:relative;
-    width: 20px;
-    height: 20px;
-    top: 400px;
-    left: 310px; 
-}
-.huella16 img{
-    position:relative;
-    width: 20px;
-    height: 20px;
-    top: 420px;
-}
-.huella17 img{
-    position:relative;
-    width: 20px;
-    height: 20px;
-    top: 395px;
-    left: 310px;
-}
-.huella18 img{
-    position:relative;
-    width: 20px;
-    height: 20px;
-    top: 75px;
-
-}
-.huella19 img{
-    position:relative;
-    width: 20px;
-    height: 20px;
-    top: 50px;
-    left: 400px;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 125px;
+    margin-left: 50px;
+    top: -335px;
 }
 .pie{
     position: relative;
-    top: 750px;
+    top: 250px;
 }   
 a {
     color: black;
@@ -365,6 +230,5 @@ a {
     font-size: 20;
     font-weight: 900;
 }
-  
 
 
