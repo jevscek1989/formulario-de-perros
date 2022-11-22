@@ -151,10 +151,10 @@ body{
      flex-direction: row;
 }
 
-img:nth-child(6){
+.fila-izq img:nth-child(6){
     margin-top: 95px;
 }
-label:nth-child(6){
+.preguntas label:nth-child(6){
     margin-top: 50px;
 }
 .fila-izq img{
@@ -221,14 +221,47 @@ label:nth-child(6){
     margin-left: 50px;
     top: 125px;
 }
+.primero{
+    left: 45px;
+    max-width: 60px;
+    margin-top: -380px;
+}
+.c1{
+    margin-left: 600px;
+    max-width: 60px;
+    margin-top: -180px;
+}
+.s1{
+    /*  display: flex;
+     flex-direction: row;
+     margin-left: 550px;
+     max-width: 60px;
+     margin-top: -380px;
+     font-size: 18px;
+     font-weight: 900;
+     line-height: 15px;
+     letter-spacing: 0em;
+     text-align: left; */
+ }
+.c2{ 
+    margin-left: 250px;
+    max-width: 60px;
+    top: -350px;;
+}
 
-.cuadritos2 input{
+.s2{
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     margin-left: 550px;
     max-width: 60px;
-    margin-top: -280px;
+    margin-top: -380px;
+    font-size: 18px;
+    font-weight: 900;
+    line-height: 50px;
+    letter-spacing: 0em;
+    text-align: left;
 }
+/* 
 .cuadritos2 label{
     font-size: 18px;
     font-weight: 900;
@@ -242,12 +275,10 @@ label:nth-child(6){
     margin-top: 350px;
 }
 .cuadritos3 input{
-    display: flex;
-    flex-direction: column;
     margin-bottom: 15px;
     left: 60px;
-    margin-top: 100px;
-    margin-left: 450px;
+    margin-top: -350px;
+    margin-left: 550px;
     max-width: 60px;
 }
 .cuadritos3 label{
@@ -259,8 +290,9 @@ label:nth-child(6){
     margin-left: 450px;
     display: flex;
     flex-direction: column;
-}
-.cuadritos4 input{
+    max-width: 60px;
+} */
+./* cuadritos4 input{
     display: flex;
     flex-direction: column;
     margin-bottom: 15px;
@@ -270,20 +302,20 @@ label:nth-child(6){
     max-width: 60px; 
     display: flex;
     flex-direction: column;
-}
-.cuadritos4 label{
+} */
+/* .cuadritos4 label{
     font-size: 18px;
     font-weight: 900;
     line-height: 50px;
     letter-spacing: 0em;
     text-align: left;
     margin-left: 450px;
-}
+} */
 .pie{
     position: relative;
     top: 250px;
 }   
-a {
+.subir a{
     color: black;
     margin-left: 25px;
     font-size: 20;
