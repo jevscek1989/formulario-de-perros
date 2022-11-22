@@ -58,10 +58,10 @@ body{
     flex-direction: column;
     margin-left: 450px;
     max-width: 550px;
-    margin-top: -500px;
+    margin-top: -215px;
 }
 .opciones label{
-    font-size: 20px;
+    font-size: 18px;
     font-weight: 900;
     line-height: 50px;
     letter-spacing: 0em;
@@ -181,16 +181,6 @@ label:nth-child(6){
     display: flex;
      flex-direction: row;
 }
-.lado-izq img{
-    position: relative;
-    width: 20px;
-    height: 20px;
-    display: flex;
-    flex-direction: column;
-    margin-bottom: 125px;
-    top: -335px;
- 
-}
 .lado-izq{
     margin-left: 15px;
 }
@@ -199,16 +189,27 @@ label:nth-child(6){
     flex-direction: column;
     margin-left: 15px;
     max-width: 550px;
-    margin-top: -350px;
+    margin-top: 110px;
 }
 .preguntas2 label{
     font-size: 20px;
     font-weight: 900;
     line-height: 50px;
     letter-spacing: 0em;
-    text-align: left;
+    text-align: center;
     margin-left: 15px;
-    margin-bottom: 95px;
+    margin-bottom: 65px;
+    max-width: 300px;
+}
+.lado-izq img{
+    position: relative;
+    width: 20px;
+    height: 20px;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 145px;
+    top: 125px;
+ 
 }
 .lado-der img{
     position: relative;
@@ -216,9 +217,67 @@ label:nth-child(6){
     height: 20px;
     display: flex;
     flex-direction: column;
-    margin-bottom: 125px;
+    margin-bottom: 145px;
     margin-left: 50px;
-    top: -335px;
+    top: 125px;
+}
+
+.cuadritos2 input{
+    display: flex;
+    flex-direction: column;
+    margin-left: 550px;
+    max-width: 60px;
+    margin-top: -280px;
+}
+.cuadritos2 label{
+    font-size: 18px;
+    font-weight: 900;
+    line-height: 50px;
+    letter-spacing: 0em;
+    text-align: left;
+    margin-left: 600px;
+    display: flex;
+    flex-direction: column;
+    max-width: 60px;
+    margin-top: 350px;
+}
+.cuadritos3 input{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 15px;
+    left: 60px;
+    margin-top: 100px;
+    margin-left: 450px;
+    max-width: 60px;
+}
+.cuadritos3 label{
+    font-size: 18px;
+    font-weight: 900;
+    line-height: 50px;
+    letter-spacing: 0em;
+    text-align: left;
+    margin-left: 450px;
+    display: flex;
+    flex-direction: column;
+}
+.cuadritos4 input{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 15px;
+    left: 60px;
+    margin-top: 100px;
+    margin-left: 450px;
+    max-width: 60px; 
+    display: flex;
+    flex-direction: column;
+}
+.cuadritos4 label{
+    font-size: 18px;
+    font-weight: 900;
+    line-height: 50px;
+    letter-spacing: 0em;
+    text-align: left;
+    margin-left: 450px;
 }
 .pie{
     position: relative;
